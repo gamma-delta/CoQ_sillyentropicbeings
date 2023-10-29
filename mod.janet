@@ -1,5 +1,6 @@
 #!/usr/bin/env janet
 (use /src/object-blueprints)
+(use /src/population-tables)
 
 (use cbt)
 
@@ -16,6 +17,7 @@
 For the Monster Mash Jam 2023 -- https://itch.io/jam/caves-of-qud-modding-jam-1")
 
 (generate-xml "ObjectBlueprints.xml" object-blueprints)
+(generate-xml "PopulationTables.xml" population-tables)
 
 # (set-debug-output true)
 
