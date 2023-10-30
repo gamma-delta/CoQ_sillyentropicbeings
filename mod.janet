@@ -14,7 +14,9 @@
   "petrak@"
   "0.1.0"
   :description "Ersatz and stochastic entropic beings intersecting our paper-thin slice of Qud.
-For the Monster Mash Jam 2023 -- https://itch.io/jam/caves-of-qud-modding-jam-1")
+For the Monster Mash Jam 2023 -- https://itch.io/jam/caves-of-qud-modding-jam-1"
+  :thumbnail "thumbnail.png"
+  :steam-id 3065885972)
 
 (generate-xml "ObjectBlueprints.xml" object-blueprints)
 (generate-xml "PopulationTables.xml" population-tables)
