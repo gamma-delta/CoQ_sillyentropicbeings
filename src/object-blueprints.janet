@@ -17,7 +17,8 @@
            (part :Render :DisplayName "floating {{R|i}}"
                  :DetailColor col/red)
            (description "Starlight refracts through its lens in frequencies the spacially-bounded brain was not meant to examine. It beckons; it flickers; it calls.")
-           (part :Brain :Hostile true)
+           (part :Brain :Hostile true
+                 :Mobile false :Wanders false)
            (inventoryobject :PKSXB_FloatingI_Whacker 1)
            (tag :DynamicObjectsTable:DesertCanyon_Creatures)
            (tag :DynamicObjectsTable:Hills_Creatures)
@@ -97,7 +98,7 @@
            (part :Brain :Factions "highly entropic beings-100")
            (part :LightSource :Lit true :Radius 8)
            (inventoryobject :PKSXB_Dustbringer_Whacker 1)
-           (stat :HeatResistance 200)
+           (stat :HeatResistance 100)
            (stat :Level 15)
            (stat :Hitpoints 1) (stat :DV 15) (stat :AV 5)
            (stat :Agility 24)
