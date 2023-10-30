@@ -12,7 +12,7 @@
   "silly-entropic-beings"
   "Silly Entropic Beings"
   "petrak@"
-  "0.1.0"
+  "0.1.1"
   :description "Ersatz and stochastic entropic beings intersecting our paper-thin slice of Qud.
 For the Monster Mash Jam 2023 -- https://itch.io/jam/caves-of-qud-modding-jam-1"
   :thumbnail "thumbnail.png"
