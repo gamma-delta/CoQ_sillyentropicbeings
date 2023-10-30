@@ -22,9 +22,9 @@
                  (object-each :PKSXB_SkellyJelly_Lame 1 5)
                  (object-each "Space-Time Vortex" 1 1)))
 
-   (alter-population :SaltDesertZoneGlobals
-                     (group-raw :Creatures :pickone :Merge
-                                (object-one :PKSXB_Dustbringer 1 4)))
+   (alter-population :SaltDesertPerSector
+                     (group-raw :Creatures nil :Merge
+                                (object-one :PKSXB_Dustbringer 1 20)))
 
    ;(seq [tbl :in [:DesertCanyonZoneGlobals-Reachable
                    :HillsZoneGlobals-Reachable
